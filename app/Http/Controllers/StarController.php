@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class StarController extends Controller
 {
     function Home() {
-        return view('welcome');
+        return view('layouts.master');
    }
    
     function Business() {

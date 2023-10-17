@@ -67,9 +67,9 @@
           <div style="font-family: 'Roboto', sans-serif;" class="hidden md:flex space-x-10 text-md md:order-2">
             <!-- Dropdown for "COMPANY" -->
             <div class="relative group">
-              <a
+              <div
                 href=""
-                class=" flex items-center"
+                class=" flex items-center cursor-pointer"
                 onclick="toggleDropdown('company-dropdown', 'open-arrow')"
               >
                 <p>COMPANY</p>
@@ -89,7 +89,7 @@
                     d="M19 9l-7 7-7-7"
                   ></path>
                 </svg>
-              </a>
+    </div>
               <!-- Dropdown content (initially hidden) -->
               <div style="font-family: 'Roboto', sans-serif;"
                 id="company-dropdown"
