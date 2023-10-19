@@ -7,22 +7,38 @@ use Illuminate\Http\Request;
 class StarController extends Controller
 {
     function Home() {
-        return view('layouts.master');
+        return view('frontend.index');
    }
    
     function Business() {
-        return view('business');
+        return view('frontend.business');
    }
 
    function CSR() {
-    return view('csr');
+    return view('frontend.csr');
 }
 
 function Career() {
-    return view('career');
+    return view('frontend.career');
 }
 
 function Contact() {
-    return view('contact');
+    return view('frontend.contact');
+}
+
+function About() {
+    return view('frontend.about');
+}
+
+function Achievements() {
+    return view('frontend.achievements');
+}
+
+function Management() {
+    return view('frontend.management');
+}
+
+function JobDetails() {
+    return view('frontend.job-details');
 }
 }

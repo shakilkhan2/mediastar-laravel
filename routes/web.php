@@ -18,4 +18,7 @@ Route::get('/business', [StarController::class, 'Business']);
 Route::get('/csr', [StarController::class, 'CSR']);
 Route::get('/career', [StarController::class, 'Career']);
 Route::get('/contact', [StarController::class, 'Contact']);
-// Route::get('/csr', [StarController::class, 'CSR']);
+Route::get('/about', [StarController::class, 'About']);
+Route::get('/achievements', [StarController::class, 'Achievements']);
+Route::get('/management', [StarController::class, 'Management']);
+Route::get('/job-details', [StarController::class, 'JobDetails']);

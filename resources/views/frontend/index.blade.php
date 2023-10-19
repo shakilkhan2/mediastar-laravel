@@ -1,8 +1,4 @@
 @extends('layouts.master')
-<!-- @section('shakil')
-shaaaaaaa
-@endsection -->
-
 @section('content')
 <main style="font-family: 'Roboto', sans-serif;">
       <!-- Banner -->

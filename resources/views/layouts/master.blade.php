@@ -9,7 +9,19 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>MediaStar</title>
     <script src="https://cdn.tailwindcss.com"></script>
-
+    <style>
+        /* Define a custom CSS class for the input fields and textarea */
+        .input-field {
+          width: 100%;
+          max-width: 400px; /* You can adjust this value to control the maximum width */
+          padding: 8px;
+          margin-top: 4px;
+          border: 1px solid #D9D9D9;
+          background-color: #D9D9D9;
+          outline: none;
+          resize: vertical;
+        }
+      </style>
     <!-- css -->
     <style>
       /* Define the animation */
@@ -56,12 +68,14 @@
     
     <!-- Main -->
     @yield('content')
-
     <!-- Footer -->
     @include('layouts.includes.footer')
     
-<!-- JS -->
-<script src="https://kit.fontawesome.com/2f678b91de.js" crossorigin="anonymous"></script>
+ <!-- JS -->
+ <script
+      src="https://kit.fontawesome.com/2f678b91de.js"
+      crossorigin="anonymous"
+    ></script>
     <script>
       function toggleDropdown(id) {
         const dropdown = document.getElementById(id);
@@ -76,5 +90,6 @@
         mobileMenu.classList.toggle("hidden");
       });
     </script>
+    @yield('script')
   </body>
 </html>
