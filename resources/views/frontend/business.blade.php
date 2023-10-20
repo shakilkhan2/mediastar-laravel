@@ -196,7 +196,7 @@
             </div>
             <div class="w-[90%] md:w-[50%] md:w-[70%] pb-4 md:pb-none">
               <img src="./assets/images/prothom-alo-digital.png" alt="" />
-              <p class="text-justify mt-4">
+              <p class="text-justify mt-4 pr-0 md:pr-4">
                 Prothom Alo Digital owns and operates a wide range of digital
                 products and services, including news and entertainment portals,
                 e-magazine platforms, e-commerce, and OTT platform. We have a
